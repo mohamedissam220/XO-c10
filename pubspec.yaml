@@ -36,6 +36,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_native_splash: ^2.3.10
+  google_fonts: ^6.1.0
+  flutter_localizations:
+      sdk: flutter
+  intl: any
+  metro_icons: ^0.0.2
+  font_awesome_flutter: ^10.7.0
+  flex_color_scheme: ^7.3.1
 
 dev_dependencies:
   flutter_test:
@@ -53,15 +60,15 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  generate: true
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
+
   uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/files/
+  # To add assets to your application, add an assets section, like this:
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
